@@ -1,0 +1,13 @@
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 1
+  OkToRetryOnAllPerations: false
+#spring:
+#  application:
+#    name: zk-resttemplate
+#  cloud:
+#    zookeeper:
+#      connect-string: 127.0.0.1:2181
+#      discovery:

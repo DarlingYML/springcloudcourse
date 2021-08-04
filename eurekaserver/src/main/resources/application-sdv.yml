@@ -1,0 +1,13 @@
+server:
+  port: 8021
+spring:
+  application:
+    name: eurekaClient
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8010/eureka,http://127.0.0.1:8011/eureka,http://127.0.0.1:8012/eureka
+#      defaultZone: http://127.0.0.1:8010/eureka
+  instance:
+    instance-id: eurekaClient2
+    ip-address: true
